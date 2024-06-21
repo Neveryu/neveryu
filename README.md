@@ -18,12 +18,29 @@ Here are some ideas to get you started:
 
 :construction_worker:  Front End Engineer
 
-Development & Security
-
-Vue & CSS & Node & JavaScript & React
+Vue & Node & JavaScript & React & CSS & Angular & TypeScript
+<p align="left">
+  <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25"/></code>
+  <code><img  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="25"/></code>
+  <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="25"/></code>
+  <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="25"/></code>
+  <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="25"/></code>
+  <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nuxtjs/nuxtjs-original.svg" height="25"/></code>
+  <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="25"/></code>
+  <code><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/nginx/nginx-original.svg" height="25"/></code>
+  <code><img src="https://github.com/devicons/devicon/blob/v2.15.1/icons/trello/trello-plain-wordmark.svg" height="25"/></code>
+</p>
 
 Wechat: miracle421354532
 
-Blog: https://blog.csdn.net/csdn_yudong
+Blog0: https://neveryu.github.io/neveryu/
+Blog1: https://blog.csdn.net/csdn_yudong
 
 ![neveryu's github stats](https://github-readme-stats.vercel.app/api?username=neveryu&show_icons=true&theme=gruvbox)
+![neveryu's github top_langs](https://github-readme-stats.vercel.app/api/top-langs/?username=neveryu&show_icons=true&theme=gruvbox)
+
+
+![snk](https://raw.githubusercontent.com/zhoufanglu/githubSNK/df18a4a2fb544d5fc0e692f98c3436e9dccaa547/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+### views
+![](https://komarev.com/ghpvc/?username=neveryu)
