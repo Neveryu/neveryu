@@ -35,7 +35,7 @@ Wechat: miracle421354532
 
 Blog0: https://neveryu.github.io/neveryu/
 
-Blog1: https://blog.csdn.net/csdn_yudong
+Blog1: https://neveryu.blog.csdn.net/
 
 ![neveryu's github stats](https://github-readme-stats.vercel.app/api?username=neveryu&show_icons=true&theme=gruvbox)
 ![neveryu's github top_langs](https://github-readme-stats.vercel.app/api/top-langs/?username=neveryu&show_icons=true&theme=gruvbox)
