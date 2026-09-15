@@ -251,3 +251,36 @@ Blog1: https://neveryu.blog.csdn.net/
 
   ════════════════════════════════════════════
 -->
+
+
+
+
+<!--
+  ═══════════════════════════════════════════
+  OPERATOR ID · 使用指南（本注释不会显示在主页）
+  ═══════════════════════════════════════════
+
+  ① 新建与你的用户名完全同名的公开仓库
+     （例：用户名 alice → 仓库名 alice，勾选 Public）
+  ② 上传本 README.md 到仓库根目录，assets/ 文件夹原样上传
+  ③ 改两处内容：
+     · 卡片：assets/card-dark.svg 与 card-light.svg
+       搜索「EDIT」—— 6 处文字（名字 / 头衔 / ID / 技术栈 / 坐标 / 状态行）
+       深浅两份要同步改；状态行 ≤ 26 字符，超长会碰到光标
+     · 正文：全局搜索 TODO；项目表格链接里的用户名占位符也要替换（3 处）
+  ④ 推送后打开 github.com/<你的用户名> 查看效果
+
+  ※ 这套设计零第三方服务：动画卡片存在你自己仓库里，
+    不依赖任何公共实例 —— 永不掉链子
+  ※ 卡片自带四组动画：打字机状态行 / 闪烁光标 / 呼吸指示灯 / 扫描线
+  ※ 深浅色两版卡片会按访客系统主题自动切换
+  ※ 换配色：编辑 svg 里 PALETTE 注释处的色值
+  ═══════════════════════════════════════════
+-->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-light.svg" />
+  <img src="assets/card-dark.svg" width="100%" alt="Operator ID Card" />
+</picture>
+
