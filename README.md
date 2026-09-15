@@ -73,7 +73,7 @@ Vue & Node & JavaScript & React & CSS & Angular & TypeScript
 <img src="./assets/banner.jpg" width="100%" alt="banner" />
 
 <a href="https://github.com/NeverYu">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi+there,+I'm+NeverYu+👋;Full-stack+Developer;个性签名" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi+there,+I'm+NeverYu+👋;Full-stack+Developer;一辈子最大的事就是不要管别人。少操心他人的看法，把自己做好就行！ 人在这个社会上，无非就是你说说别人，让别人说说你。" alt="typing" />
 </a>
 
 </div>
