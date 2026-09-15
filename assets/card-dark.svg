@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img">
+<title>Operator ID — YOUR NAME</title>
+<desc>赛博操作员工牌：身份、技术栈与状态</desc>
+<style>
+.cur{animation:blink 1.1s steps(1,end) infinite}
+@keyframes blink{0%,49.9%{opacity:1}50%,100%{opacity:0}}
+.led{animation:led 2.4s ease-in-out infinite}
+@keyframes led{0%,100%{opacity:1}50%{opacity:.35}}
+.scan{animation:scan 9.5s linear infinite}
+@keyframes scan{from{transform:translateY(0)}to{transform:translateY(456px)}}
+.typer{animation:type 2.7s steps(27,end) .6s both}
+@keyframes type{from{width:0px}to{width:267px}}
+@media (prefers-reduced-motion:reduce){.cur,.led,.scan,.typer{animation:none}}
+</style>
+<defs>
+<linearGradient id="bggrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0d1424"/><stop offset="1" stop-color="#090e19"/>
+</linearGradient>
+<linearGradient id="scangrad" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#dfeeff" stop-opacity="0"/>
+<stop offset=".5" stop-color="#dfeeff" stop-opacity="0.06"/>
+<stop offset="1" stop-color="#dfeeff" stop-opacity="0"/>
+</linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+<circle cx="1" cy="1" r="1" fill="#ffffff" opacity="0.05"/>
+</pattern>
+<clipPath id="cardclip"><rect x="10" y="10" width="900" height="400" rx="16"/></clipPath>
+<clipPath id="typeclip"><rect class="typer" x="465" y="304" width="267" height="26"/></clipPath>
+</defs>
+
+<!-- PALETTE 换色处：green=主强调 amber=次强调 text=正文 dim=次要 line=边框 -->
+<g font-family="ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Menlo, Consolas, 'Noto Sans Mono CJK SC', monospace">
+
+<!-- 裁切角标（印刷工艺术） -->
+<path d="M 0 16 L 0 0 L 16 0" fill="none" stroke="#394564" stroke-opacity="0.4" stroke-width="1.5"/>
+<path d="M 904 0 L 920 0 L 920 16" fill="none" stroke="#394564" stroke-opacity="0.4" stroke-width="1.5"/>
+<path d="M 920 404 L 920 420 L 904 420" fill="none" stroke="#394564" stroke-opacity="0.4" stroke-width="1.5"/>
+<path d="M 16 420 L 0 420 L 0 404" fill="none" stroke="#394564" stroke-opacity="0.4" stroke-width="1.5"/>
+
+<!-- 卡体 -->
+<rect x="10" y="10" width="900" height="400" rx="16" fill="url(#bggrad)"/>
+<rect x="10" y="10" width="900" height="400" rx="16" fill="url(#dots)"/>
+<rect x="10" y="10" width="900" height="400" rx="16" fill="none" stroke="#26314a" stroke-width="1.5"/>
+
+<!-- 扫描线动画（自上而下缓慢扫过全卡） -->
+<g clip-path="url(#cardclip)"><rect class="scan" x="10" y="-46" width="900" height="34" fill="url(#scangrad)"/></g>
+
+<!-- ── 头部条 ── -->
+<rect x="30" y="31" width="8" height="8" fill="#3ef2a1"/>
+<rect x="46" y="31" width="8" height="8" fill="#ffc46b" opacity=".55"/>
+<rect x="62" y="31" width="8" height="8" fill="none" stroke="#26314a" stroke-width="1.5"/>
+<text x="84" y="39" font-size="12.5" letter-spacing="2.5"><tspan fill="#3ef2a1">ACCESS.ID</tspan><tspan fill="#93a0ba"> // OPERATOR</tspan></text>
+<text x="890" y="39" font-size="11" letter-spacing="1" text-anchor="end" fill="#93a0ba">REV 2026.09</text>
+<line x1="30" y1="54" x2="890" y2="54" stroke="#26314a" stroke-width="1"/>
+
+<!-- ── 左列：像素徽章 + 条形码 ── -->
+<ellipse cx="165" cy="152" rx="88" ry="58" fill="#3ef2a1" opacity="0.055"/>
+<rect x="119" y="100" width="13" height="13" fill="#3ef2a1"/>
+<rect x="197" y="100" width="13" height="13" fill="#3ef2a1"/>
+<rect x="132" y="113" width="13" height="13" fill="#3ef2a1"/>
+<rect x="184" y="113" width="13" height="13" fill="#3ef2a1"/>
+<rect x="119" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="132" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="145" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="158" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="171" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="184" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="197" y="126" width="13" height="13" fill="#3ef2a1"/>
+<rect x="106" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="119" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="145" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="158" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="171" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="197" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="210" y="139" width="13" height="13" fill="#3ef2a1"/>
+<rect x="93" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="106" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="119" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="132" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="145" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="158" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="171" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="184" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="197" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="210" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="223" y="152" width="13" height="13" fill="#3ef2a1"/>
+<rect x="93" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="119" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="132" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="145" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="158" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="171" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="184" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="197" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="223" y="165" width="13" height="13" fill="#3ef2a1"/>
+<rect x="93" y="178" width="13" height="13" fill="#3ef2a1"/>
+<rect x="119" y="178" width="13" height="13" fill="#3ef2a1"/>
+<rect x="197" y="178" width="13" height="13" fill="#3ef2a1"/>
+<rect x="223" y="178" width="13" height="13" fill="#3ef2a1"/>
+<rect x="132" y="191" width="13" height="13" fill="#3ef2a1"/>
+<rect x="145" y="191" width="13" height="13" fill="#3ef2a1"/>
+<rect x="171" y="191" width="13" height="13" fill="#3ef2a1"/>
+<rect x="184" y="191" width="13" height="13" fill="#3ef2a1"/>
+<text x="165" y="230" font-size="10" letter-spacing="1.5" text-anchor="middle" fill="#93a0ba">SUBJECT: HUMAN (PROBABLY)</text>
+<rect x="40" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="47" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="52" y="254" width="6" height="42" fill="#d9e4f2"/>
+<rect x="61" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="66" y="254" width="3" height="42" fill="#d9e4f2"/>
+<rect x="72" y="254" width="8" height="42" fill="#d9e4f2"/>
+<rect x="83" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="88" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="95" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="100" y="254" width="6" height="42" fill="#d9e4f2"/>
+<rect x="109" y="254" width="3" height="42" fill="#d9e4f2"/>
+<rect x="115" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="120" y="254" width="8" height="42" fill="#d9e4f2"/>
+<rect x="131" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="136" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="143" y="254" width="6" height="42" fill="#d9e4f2"/>
+<rect x="152" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="157" y="254" width="3" height="42" fill="#d9e4f2"/>
+<rect x="163" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="168" y="254" width="8" height="42" fill="#d9e4f2"/>
+<rect x="179" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="186" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="191" y="254" width="6" height="42" fill="#d9e4f2"/>
+<rect x="200" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="205" y="254" width="3" height="42" fill="#d9e4f2"/>
+<rect x="211" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="218" y="254" width="8" height="42" fill="#d9e4f2"/>
+<rect x="229" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="234" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="241" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="246" y="254" width="6" height="42" fill="#d9e4f2"/>
+<rect x="255" y="254" width="3" height="42" fill="#d9e4f2"/>
+<rect x="261" y="254" width="2" height="42" fill="#d9e4f2"/>
+<rect x="266" y="254" width="4" height="42" fill="#d9e4f2"/>
+<rect x="273" y="254" width="3" height="42" fill="#d9e4f2"/>
+<rect x="279" y="254" width="6" height="42" fill="#d9e4f2"/>
+<text x="165" y="312" font-size="10" letter-spacing="2" text-anchor="middle" fill="#93a0ba">SN 7AA2F7-2609</text>
+
+<line x1="316" y1="70" x2="316" y2="350" stroke="#26314a" stroke-width="1" opacity=".8"/>
+
+<!-- ── 右列：身份信息 ── -->
+<!-- EDIT 1/6：名字（建议 ≤ 16 字符） -->
+<text x="340" y="118" font-size="33" font-weight="700" letter-spacing="1" fill="#e9eff8">Never Yu</text>
+<!-- EDIT 2/6：职业头衔 -->
+<text x="340" y="152" font-size="17" font-weight="600" fill="#3ef2a1">全栈工程师</text>
+<line x1="340" y1="176" x2="890" y2="176" stroke="#26314a" stroke-width="1"/>
+
+<text x="340" y="206" font-size="11" letter-spacing="2" fill="#93a0ba">ID</text>
+<!-- EDIT 3/6：GitHub 主页（≤ 38 字符，超长会顶出卡片右缘） -->
+<text x="465" y="206" font-size="16.5" fill="#e9eff8">github.com/NeverYu</text>
+
+<text x="340" y="234" font-size="11" letter-spacing="2" fill="#93a0ba">STACK</text>
+<!-- EDIT 4/6：技术栈（建议 ≤ 40 字符） -->
+<text x="465" y="234" font-size="16.5" fill="#e9eff8">TypeScript · React · Node.js · Angular · PHP</text>
+
+<text x="340" y="262" font-size="11" letter-spacing="2" fill="#93a0ba">COORD</text>
+<!-- EDIT 5/6：坐标 -->
+<text x="465" y="262" font-size="16.5" fill="#93a0ba">武汉 · UTC+8</text>
+
+<text x="340" y="290" font-size="11" letter-spacing="2" fill="#93a0ba">CLEARANCE</text>
+<text x="465" y="290" font-size="16.5" fill="#3ef2a1">LEVEL 5 · OPEN SOURCE</text>
+
+<text x="340" y="328" font-size="11" letter-spacing="2" fill="#93a0ba">STATUS</text>
+<!-- EDIT 6/6：状态行（≤ 26 字符，光标位置按 27 字符预留） -->
+<g clip-path="url(#typeclip)">
+<text x="465" y="328" font-size="16.5" fill="#3ef2a1">&gt; importing coffee... done.</text>
+</g>
+<rect class="cur" x="738" y="313" width="9" height="17" fill="#3ef2a1"/>
+
+<!-- ── 页脚 ── -->
+<line x1="30" y1="366" x2="890" y2="366" stroke="#26314a" stroke-width="1"/>
+<circle class="led" cx="34" cy="386" r="4.5" fill="#3ef2a1"/>
+<text x="48" y="390" font-size="10.5" letter-spacing="1.5" fill="#93a0ba">SYS.ONLINE</text>
+<text x="465" y="390" font-size="10.5" letter-spacing="2" text-anchor="middle" fill="#93a0ba">VALID ON ALL BRANCHES</text>
+<text x="890" y="390" font-size="11" letter-spacing="1.5" text-anchor="end" fill="#ffc46b">EXP: NEVER</text>
+
+</g>
+</svg>
