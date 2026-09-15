@@ -72,8 +72,8 @@ Vue & Node & JavaScript & React & CSS & Angular & TypeScript
 
 <img src="./assets/banner.jpg" width="100%" alt="banner" />
 
-<a href="https://github.com/YOUR_USERNAME">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi+there,+I'm+YOUR_USERNAME+👋;TODO:+一句话介绍你自己（例：Full-stack+Developer）;TODO:+你的个性签名" alt="typing" />
+<a href="https://github.com/NeverYu">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi+there,+I'm+NeverYu+👋;Full-stack+Developer;个性签名" alt="typing" />
 </a>
 
 </div>
@@ -242,16 +242,6 @@ Blog1: https://neveryu.blog.csdn.net/
 
   ⑥ 波浪页脚渐变
      capsule-render URL 中的 0:1a1b27,50:7aa2f7,100:bb9af7
-
-  参考色板（背景 · 主色 · 辅色 · 点缀 · 强调）：
-    Tokyo Night  1a1b27 · 7aa2f7 · bb9af7 · 7dcfff · 9ece6a
-    Dracula      282a36 · bd93f9 · ff79c6 · 8be9fd · 50fa7b
-    Nord         2e3440 · 88c0d0 · a3be8c · b48ead · ebcb8b
-    Gruvbox      282828 · fabd2f · b8bb26 · 83a598 · d3869b
-
-  ════════════════════════════════════════════
--->
-
 
   参考色板（背景 · 主色 · 辅色 · 点缀 · 强调）：
     Tokyo Night  1a1b27 · 7aa2f7 · bb9af7 · 7dcfff · 9ece6a
