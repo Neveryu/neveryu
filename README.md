@@ -170,7 +170,7 @@ Wechat: <img height="210" src="./assets/wechat-me-qrcode.jpg" alt="wechat-me-qrc
 
 <br/>
 
-[魔法棒] 支付宝的黑卡活动，扫码可以额外领1000V钻，能换点话费啥的，感兴趣的可以扫码看看
+### ☕ 支付宝的黑卡活动，扫码可以额外领1000V钻，能换点话费啥的，感兴趣的可以扫码看看
 
 <img src="./assets/alipay-cfhk000520.jpg" alt="支付宝黑卡活动" />
 
