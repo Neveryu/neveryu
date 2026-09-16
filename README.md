@@ -21,9 +21,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-
-:construction_worker: Never Yu
-
 Vue & Node & JavaScript & React & CSS & Angular & TypeScript
 <p align="left">
   <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="25"/></code>
@@ -79,7 +76,7 @@ Vue & Node & JavaScript & React & CSS & Angular & TypeScript
 <img src="./assets/banner.jpg" width="100%" alt="banner" />
 
 <a href="https://github.com/NeverYu">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi+there,+I'm+NeverYu+👋;Full-stack+Developer;一辈子最大的事就是不要管别人。少操心他人的看法，把自己做好就行！ 人在这个社会上，无非就是你说说别人，让别人说说你。" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=700&size=26&pause=1200&color=7AA2F7&center=true&vCenter=true&width=720&lines=Hi+there,+I%27m+NeverYu+%F0%9F%91%8B;Full-stack+Developer;+%E8%AE%A4%E7%9C%9F%E7%9A%84%E4%BA%BA%E6%89%8D%E6%9C%89%E8%B5%84%E6%A0%BC%E5%BC%80%E7%8E%A9%E7%AC%91" alt="typing" />
 </a>
 
 </div>
