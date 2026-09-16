@@ -76,7 +76,7 @@ Blog: https://neveryu.blog.csdn.net/
 
 基金: https://yu.apig.edu.pl/react-fund/
 
-Wechat: <img height="200" src="./assets/wechat-me-qrcode.jpg" alt="wechat-me-qrcode" />
+Wechat: <img height="210" src="./assets/wechat-me-qrcode.jpg" alt="wechat-me-qrcode" />
 
 
 ## 🚀 我在做的事 · What I'm Up To
@@ -134,7 +134,7 @@ Wechat: <img height="200" src="./assets/wechat-me-qrcode.jpg" alt="wechat-me-qrc
 </div>
 
 ## 📈 活跃度 · Contribution Graph
-![snk](https://raw.githubusercontent.com/zhoufanglu/githubSNK/df18a4a2fb544d5fc0e692f98c3436e9dccaa547/github-contribution-grid-snake.svg#gh-light-mode-only)
+[![snk](https://raw.githubusercontent.com/zhoufanglu/githubSNK/df18a4a2fb544d5fc0e692f98c3436e9dccaa547/github-contribution-grid-snake.svg#gh-light-mode-only)](https://neveryu.blog.csdn.net/article/details/124124137)
 
 ## 📮 联系我 · Reach Me
 
@@ -150,6 +150,7 @@ Wechat: <img height="200" src="./assets/wechat-me-qrcode.jpg" alt="wechat-me-qrc
 [![Juejin](https://img.shields.io/badge/Juejin-9ECE6A?style=for-the-badge&logo=juejin&logoColor=white)](https://juejin.cn/user/2049145406504072)
 [![X](https://img.shields.io/badge/X-E0AF68?style=for-the-badge&logo=x&logoColor=white)](https://x.com)
 [![基金](https://img.shields.io/badge/基金-2AC3DE?style=for-the-badge&logo=meta&logoColor=white)](https://yu.apig.edu.pl/react-fund/)
+[![Support](https://img.shields.io/badge/Support-E0AF68?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://yu.apig.edu.pl/react-fund/)
 
 </div>
 
@@ -165,7 +166,13 @@ Wechat: <img height="200" src="./assets/wechat-me-qrcode.jpg" alt="wechat-me-qrc
 
 <br/>
 
-<img src="./assets/wechat-reward-code.jpg" alt="wechat-reward-code" />
+<img src="./assets/wechat-reward-code.jpg" alt="微信赞赏码" />
+
+<br/>
+
+[魔法棒] 支付宝的黑卡活动，扫码可以额外领1000V钻，能换点话费啥的，感兴趣的可以扫码看看
+
+<img src="./assets/alipay-cfhk000520.jpg" alt="支付宝黑卡活动" />
 
 </div>
 
