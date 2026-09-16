@@ -1,0 +1,88 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: update-profile-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=NeverYu&show_icons=true&include_all_commits=true&count_private=true&rank_icon=percentile&theme=tokyonight
+          path: profile/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate Top Languages
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=NeverYu&layout=compact&langs_count=8&theme=tokyonight
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Check out Trophy generator
+        uses: actions/checkout@v4
+        with:
+          repository: ryo-ma/github-profile-trophy
+          path: trophy-generator
+          ref: master
+
+      - name: Generate Trophy
+        working-directory: trophy-generator
+        env:
+          GITHUB_TOKEN1: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN2: ${{ secrets.GITHUB_TOKEN }}
+        run: deno run --allow-net --allow-env --allow-read --allow-write ./render_svg.ts NeverYu ../profile/trophy.svg tokyonight
+
+      - name: Commit generated cards
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p "$RUNNER_TEMP/profile-cards"
+          cp profile/*.svg "$RUNNER_TEMP/profile-cards/"
+
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git reset --hard origin/master
+            mkdir -p profile
+            cp "$RUNNER_TEMP/profile-cards/"*.svg profile/
+            git add profile/*.svg
+
+            if git diff --cached --quiet; then
+              echo "Profile cards are already up to date."
+              exit 0
+            fi
+
+            git commit -m "Update profile stats"
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+
+            echo "Remote branch changed; retrying ($attempt/3)..."
+          done
+
+          echo "Unable to push profile cards after 3 attempts."
+          exit 1
