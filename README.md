@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-light.svg" />
+  <img src="assets/card-dark.svg" width="100%" alt="Operator ID Card" />
+</picture>
+
 <!--
 **Neveryu/neveryu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -16,7 +22,7 @@ Here are some ideas to get you started:
 -->
 
 
-:construction_worker:  Front End Engineer
+:construction_worker: Never Yu
 
 Vue & Node & JavaScript & React & CSS & Angular & TypeScript
 <p align="left">
@@ -82,35 +88,7 @@ Vue & Node & JavaScript & React & CSS & Angular & TypeScript
 
 ## 👨‍💻 关于我 · About Me
 
-> **人话版**：白天写 TypeScript 的前端工程师，晚上折腾 Rust 的独立开发者；相信「代码首先是写给人看的，顺便让机器执行」。
-
-<!-- ▼ 极客终端卡片：只需替换 TODO 的值和 YOUR_USERNAME，格式与缩进别动
-     左侧 ASCII 显示器是装饰画，不用改；字段名全是 neofetch 的梗——
-     OS=职业身份 Kernel=核心技能 Uptime=编程年限 Shell=常用环境
-     Editor=编辑器 Ping=坐标 Memory=冷知识或自嘲 -->
-
-```bash
-$ neofetch
-    ┌───────────────┐     YOUR_USERNAME@github
-    │ >_            │     ─────────────────────────
-    │               │     OS:      TODO: 职业身份（例：前端工程师）
-    │               │     Kernel:  TODO: 核心技能（例：TypeScript · React）
-    │               │     Uptime:  TODO: 编程年限（例：6 年，仍在编译中）
-    │               │     Shell:   TODO: 常用环境（例：zsh + tmux + Docker）
-    │               │     Editor:  TODO: 编辑器（例：Neovim，btw）
-    │               │     Ping:    TODO: 坐标（例：Beijing · UTC+8）
-    │               │     Memory:  TODO: 冷知识或自嘲（例：██████░░░ 咖啡因 66%）
-    └───────┬───────┘
-       ┌────┴────┐
-       └─────────┘
-
-$ sudo make friend
-[sudo] YOUR_USERNAME 的密码: ********
-make: *** [friend] 被拒绝：友谊需要双向握手（破冰方式：发邮件 / 开个 issue）
-
-$ cat chat-topics.txt
-TODO: 欢迎和我聊（例：前端架构 / Rust / 独立开发变现 / 键盘耳机发烧友）
-```
+> 白天写 TypeScript 的前端工程师，晚上折腾 Rust 的独立开发者；
 
 Wechat: miracle421354532
 
@@ -278,9 +256,5 @@ Blog1: https://neveryu.blog.csdn.net/
   ═══════════════════════════════════════════
 -->
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/card-light.svg" />
-  <img src="assets/card-dark.svg" width="100%" alt="Operator ID Card" />
-</picture>
+
 
